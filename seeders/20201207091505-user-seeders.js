@@ -16,11 +16,11 @@ module.exports = {
         updated_at: new Date()
       },
       {
-        name: 'Alanna Izzatul Hikmah',
+        name: 'Student',
         profession: "Front End Developer",
         role: "student",
-        email: "alannaizzatul@gmail.com",
-        password: await bycrypt.hash('studentimam123', 10),
+        email: "student@gmail.com",
+        password: await bycrypt.hash('student123', 10),
         created_at: new Date(),
         updated_at: new Date()
       }
